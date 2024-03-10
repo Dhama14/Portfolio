@@ -1,0 +1,156 @@
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: #191f36;
+    --snd-bg-color: #262b40;
+    --text-color: #fff;
+    --main-color: #59b2f4;
+}
+
+body {
+    background-color: rgb(8, 8, 30);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 76px;
+    background-color: rgb(56, 56, 98);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    color: rgb(123, 54, 22);
+    font-size: 1.1rem;
+}
+
+
+
+.left {
+    font-size: 1.3rem;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+.home>div {
+    width: 30%;
+    align-items: center;
+}
+
+.leftsection {
+    width: auto;
+    font-size: 3rem;
+
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: .1rem;
+    height: .1rem;
+    background: transparent;
+    border: .2rem solid var(--snd-bg-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin-right: 2rem;
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+.social-media a:hover{
+    background: transparent;
+    color: var(--snd-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 2.2rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: rgb(116, 116, 210);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+.btn:hover{
+    box-shadow: none;
+    font-size: 2rem;
+}
+
+.rightsection img {
+    width: 35vw;
+    margin: auto;
+}
+
+.purple {
+    color: rgb(118, 85, 148);
+}
+
+#element {
+    color: rgb(118, 85, 148)
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--snd-bg-color);
+}
+
+.about-img img{
+    width: 35vw;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content h2{
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.about-content h3{
+    font-size: 2.6rem;
+}
+
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+</style>
